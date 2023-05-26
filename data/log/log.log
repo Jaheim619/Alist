@@ -795,3 +795,55 @@ failed get objs
 [GIN] 2023/05/26 - 11:00:59 | 200 |      112.36µs |    171.4.68.237 | GET      "/api/me"
 [GIN] 2023/05/26 - 11:01:00 | 200 |       111.2µs |    171.4.68.237 | GET      "/api/admin/driver/names"
 [GIN] 2023/05/26 - 11:01:00 | 200 |      845.79µs |    171.4.68.237 | GET      "/api/admin/storage/list"
+[GIN] 2023/05/26 - 11:02:47 | 200 |      578.41µs |    171.4.68.237 | POST     "/api/admin/storage/load_all"
+[36mINFO[0m[2023-05-26 11:02:49] success load storage: [/Baidu], driver: [BaiduNetdisk] 
+[36mINFO[0m[2023-05-26 11:02:49] success load storage: [/Terabox], driver: [Terabox] 
+[36mINFO[0m[2023-05-26 11:02:50] success load storage: [/Pikpak], driver: [PikPak] 
+[36mINFO[0m[2023-05-26 11:02:50] success load storage: [/Pikpak1], driver: [PikPak] 
+[36mINFO[0m[2023-05-26 11:02:51] success load storage: [/Onedrive], driver: [Onedrive] 
+[36mINFO[0m[2023-05-26 11:02:51] success load storage: [/Pikpak2], driver: [PikPak] 
+[36mINFO[0m[2023-05-26 11:02:53] success load storage: [/Ali], driver: [AliyundriveOpen] 
+[36mINFO[0m[2023-05-26 11:02:54] success load storage: [/pikpak3], driver: [AList V3] 
+[31mERRO[0m[2023-05-26 11:02:54] failed get enabled storages: the site does not allow mounted
+failed init storage
+github.com/alist-org/alist/v3/internal/op.initStorage
+	/home/runner/work/alist/alist/internal/op/storage.go:99
+github.com/alist-org/alist/v3/internal/op.LoadStorage
+	/home/runner/work/alist/alist/internal/op/storage.go:80
+github.com/alist-org/alist/v3/server/handles.LoadAllStorages.func1
+	/home/runner/work/alist/alist/server/handles/storage.go:142
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.4/x64/src/runtime/asm_amd64.s:1598 
+[36mINFO[0m[2023-05-26 11:02:55] success load storage: [/Huge], driver: [AList V3] 
+[GIN] 2023/05/26 - 11:04:20 | 200 |      274.18µs |    171.4.68.237 | GET      "/"
+[GIN] 2023/05/26 - 11:04:22 | 200 |       76.89µs |    171.4.68.237 | GET      "/api/public/settings"
+[GIN] 2023/05/26 - 11:04:22 | 200 |      107.84µs |    171.4.68.237 | GET      "/api/me"
+[GIN] 2023/05/26 - 11:04:22 | 200 |       197.3µs |    171.4.68.237 | POST     "/api/fs/get"
+[GIN] 2023/05/26 - 11:04:23 | 200 |     267.979µs |    171.4.68.237 | POST     "/api/fs/list"
+[GIN] 2023/05/26 - 11:04:41 | 200 |       70.55µs |    171.4.68.237 | GET      "/assets/Users.8c6259b1.js"
+[GIN] 2023/05/26 - 11:04:41 | 200 |       45.95µs |    171.4.68.237 | GET      "/assets/Wether.e20095d8.js"
+[GIN] 2023/05/26 - 11:04:42 | 200 |      392.11µs |    171.4.68.237 | GET      "/api/admin/user/list"
+[GIN] 2023/05/26 - 11:04:48 | 200 |       89.74µs |    171.4.68.237 | GET      "/assets/AddOrEdit.258cacbb.js"
+[GIN] 2023/05/26 - 11:04:48 | 200 |     425.031µs |    171.4.68.237 | GET      "/api/admin/user/get?id=3"
+[GIN] 2023/05/26 - 11:04:51 | 200 |      763.95µs |    171.4.68.237 | POST     "/api/admin/user/update"
+[GIN] 2023/05/26 - 11:04:51 | 200 |      399.77µs |    171.4.68.237 | GET      "/api/admin/user/list"
+[GIN] 2023/05/26 - 11:05:02 | 200 |       51.76µs |    171.4.68.237 | GET      "/assets/Common.a05624a1.js"
+[GIN] 2023/05/26 - 11:05:02 | 200 |       54.82µs |    171.4.68.237 | GET      "/assets/SettingItem.72f85e9a.js"
+[GIN] 2023/05/26 - 11:05:02 | 200 |      170.23µs |    171.4.68.237 | GET      "/assets/indexes.f321a396.js"
+[GIN] 2023/05/26 - 11:05:03 | 200 |     123.529µs |    171.4.68.237 | GET      "/api/admin/index/progress"
+[GIN] 2023/05/26 - 11:05:03 | 200 |     333.529µs |    171.4.68.237 | GET      "/api/admin/setting/list?group=6"
+[GIN] 2023/05/26 - 11:05:04 | 200 |       398.5µs |    171.4.68.237 | GET      "/api/admin/user/list"
+[GIN] 2023/05/26 - 11:05:11 | 200 |      455.26µs |    171.4.68.237 | POST     "/api/admin/user/delete?id=3"
+[GIN] 2023/05/26 - 11:05:11 | 200 |      452.04µs |    171.4.68.237 | GET      "/api/admin/user/list"
+[GIN] 2023/05/26 - 11:05:18 | 200 |      381.03µs |    171.4.68.237 | GET      "/api/admin/user/list"
+[GIN] 2023/05/26 - 11:05:49 | 200 |     663.611µs |    171.4.68.237 | POST     "/api/admin/user/create"
+[GIN] 2023/05/26 - 11:05:49 | 200 |      306.57µs |    171.4.68.237 | GET      "/api/admin/user/list"
+[33mWARN[0m[2023-05-26 11:13:08] not enable search                            
+[33mWARN[0m[2023-05-26 11:13:08] not enable search                            
+[GIN] 2023/05/26 - 11:13:13 | 200 |      184.08µs |    171.4.68.237 | GET      "/"
+[GIN] 2023/05/26 - 11:13:14 | 200 |      129.14µs |    171.4.68.237 | GET      "/api/public/settings"
+[GIN] 2023/05/26 - 11:13:20 | 200 |       110.9µs |    171.4.68.237 | GET      "/"
+[GIN] 2023/05/26 - 11:13:21 | 200 |      661.84µs |    171.4.68.237 | GET      "/api/public/settings"
+[GIN] 2023/05/26 - 11:13:21 | 200 |      536.51µs |    171.4.68.237 | GET      "/api/me"
+[GIN] 2023/05/26 - 11:13:22 | 200 |      794.37µs |    171.4.68.237 | POST     "/api/fs/get"
+[GIN] 2023/05/26 - 11:13:22 | 200 |      346.21µs |    171.4.68.237 | POST     "/api/fs/list"
