@@ -4027,3 +4027,5 @@ failed get objs
 [GIN] 2023/06/12 - 15:05:58 | 200 |  195.369161ms |  104.28.245.171 | POST     "/api/admin/storage/update"
 [GIN] 2023/06/12 - 15:05:59 | 200 |       84.24µs |  104.28.245.171 | GET      "/api/admin/driver/names"
 [GIN] 2023/06/12 - 15:05:59 | 200 |      903.29µs |  104.28.245.171 | GET      "/api/admin/storage/list"
+[GIN] 2023/06/12 - 15:07:27 | 200 |       51.18µs |  104.28.245.171 | GET      "/assets/Metas.bf433ba7.js"
+[GIN] 2023/06/12 - 15:07:28 | 200 |     264.259µs |  104.28.245.171 | GET      "/api/admin/meta/list"
