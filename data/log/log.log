@@ -4415,3 +4415,5 @@ failed get objs
 [GIN] 2023/06/12 - 16:57:34 | 200 |      927.32µs |  104.28.245.171 | GET      "/api/admin/storage/list"
 [31mERRO[0m[2023-06-12 16:57:37] failed load storage: failed init storage: Trigger security policy : Please try again later 
 [GIN] 2023/06/12 - 16:57:37 | 200 |  1.275968644s |  104.28.245.171 | POST     "/api/admin/storage/enable?id=1"
+[31mERRO[0m[2023-06-12 16:59:18] this storage have enabled                    
+[GIN] 2023/06/12 - 16:59:18 | 200 |     442.431µs |  104.28.245.171 | POST     "/api/admin/storage/enable?id=1"
