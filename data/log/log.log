@@ -4417,3 +4417,10 @@ failed get objs
 [GIN] 2023/06/12 - 16:57:37 | 200 |  1.275968644s |  104.28.245.171 | POST     "/api/admin/storage/enable?id=1"
 [31mERRO[0m[2023-06-12 16:59:18] this storage have enabled                    
 [GIN] 2023/06/12 - 16:59:18 | 200 |     442.431µs |  104.28.245.171 | POST     "/api/admin/storage/enable?id=1"
+[31mERRO[0m[2023-06-12 17:02:28] this storage have enabled                    
+[GIN] 2023/06/12 - 17:02:28 | 200 |      631.84µs |  104.28.245.171 | POST     "/api/admin/storage/enable?id=1"
+[GIN] 2023/06/12 - 17:02:45 | 200 |      460.14µs |  104.28.245.171 | GET      "/api/admin/storage/get?id=1"
+[GIN] 2023/06/12 - 17:02:46 | 200 |       312.8µs |  104.28.245.171 | GET      "/api/admin/driver/info?driver=BaiduNetdisk"
+[GIN] 2023/06/12 - 17:03:06 | 200 |  1.455817745s |  104.28.245.171 | POST     "/api/admin/storage/update"
+[GIN] 2023/06/12 - 17:03:07 | 200 |      98.639µs |  104.28.245.171 | GET      "/api/admin/driver/names"
+[GIN] 2023/06/12 - 17:03:07 | 200 |     987.889µs |  104.28.245.171 | GET      "/api/admin/storage/list"
