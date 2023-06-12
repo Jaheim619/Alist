@@ -4286,3 +4286,118 @@ failed get objs
 [GIN] 2023/06/12 - 16:41:28 | 200 |      399.81µs |  104.28.245.171 | GET      "/api/admin/user/list"
 [GIN] 2023/06/12 - 16:41:29 | 200 |     173.671µs |  104.28.245.171 | GET      "/api/admin/driver/names"
 [GIN] 2023/06/12 - 16:41:29 | 200 |     1.08634ms |  104.28.245.171 | GET      "/api/admin/storage/list"
+[GIN] 2023/06/12 - 16:47:31 | 200 |      172.28µs |  104.28.245.171 | GET      "/"
+[GIN] 2023/06/12 - 16:47:31 | 200 |      160.66µs |  104.28.245.171 | GET      "/api/public/settings"
+[GIN] 2023/06/12 - 16:47:32 | 200 |      142.22µs |  104.28.245.171 | GET      "/api/me"
+[GIN] 2023/06/12 - 16:47:32 | 200 |      267.96µs |  104.28.245.171 | POST     "/api/fs/get"
+[GIN] 2023/06/12 - 16:47:33 | 200 |       303.3µs |  104.28.245.171 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 16:47:38 | 200 |      252.48µs |  104.28.245.171 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 16:47:39 | 200 |  399.513263ms |  104.28.245.171 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 16:47:41 | 200 |      254.52µs |  104.28.245.171 | POST     "/api/fs/list"
+[31mERRO[0m[2023-06-12 16:47:42] fs/list: request failed,code: 403, message: password is incorrect or you have no permission
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.4/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.4/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.4/x64/src/runtime/asm_amd64.s:1598 
+[31mERRO[0m[2023-06-12 16:47:42] failed list /9t adult/IPPA（storage≈35T）: request failed,code: 403, message: password is incorrect or you have no permission
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.4/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.4/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.4/x64/src/runtime/asm_amd64.s:1598
+failed get objs 
+[GIN] 2023/06/12 - 16:47:42 | 200 |   82.858793ms |  104.28.245.171 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 16:47:43 | 200 |     186.409µs |  104.28.245.171 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 16:47:45 | 200 |  142.581887ms |  104.28.245.171 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 16:47:46 | 200 |      186.63µs |  104.28.245.171 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 16:47:47 | 200 |   27.700727ms |  104.28.245.171 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 16:47:49 | 200 |  183.443944ms |  104.28.245.171 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 16:47:50 | 200 |   27.463227ms |  104.28.245.171 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 16:47:52 | 200 |   27.529867ms |  104.28.245.171 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 16:47:53 | 200 |      218.04µs |  104.28.245.171 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 16:47:54 | 200 |  214.773611ms |  104.28.245.171 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 16:47:56 | 200 |      177.38µs |  104.28.245.171 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 16:47:56 | 200 |      174.23µs |  104.28.245.171 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 16:48:00 | 200 |     230.729µs |  104.28.245.171 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 16:48:06 | 200 |   27.887968ms |  104.28.245.171 | POST     "/api/fs/list"
