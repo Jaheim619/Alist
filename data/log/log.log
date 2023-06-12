@@ -4401,3 +4401,17 @@ failed get objs
 [GIN] 2023/06/12 - 16:47:56 | 200 |      174.23µs |  104.28.245.171 | POST     "/api/fs/list"
 [GIN] 2023/06/12 - 16:48:00 | 200 |     230.729µs |  104.28.245.171 | POST     "/api/fs/list"
 [GIN] 2023/06/12 - 16:48:06 | 200 |   27.887968ms |  104.28.245.171 | POST     "/api/fs/list"
+[33mWARN[0m[2023-06-12 16:54:42] not enable search                            
+[33mWARN[0m[2023-06-12 16:54:42] not enable search                            
+[GIN] 2023/06/12 - 16:54:50 | 200 |      112.42µs |  104.28.245.171 | GET      "/"
+[GIN] 2023/06/12 - 16:54:51 | 200 |       435.4µs |  104.28.245.171 | GET      "/api/public/settings"
+[GIN] 2023/06/12 - 16:54:51 | 200 |      546.65µs |  104.28.245.171 | GET      "/api/me"
+[GIN] 2023/06/12 - 16:54:52 | 200 |      622.32µs |  104.28.245.171 | POST     "/api/fs/get"
+[GIN] 2023/06/12 - 16:54:52 | 200 |       334.2µs |  104.28.245.171 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 16:54:54 | 200 |      132.18µs |  104.28.245.171 | GET      "/api/me"
+[GIN] 2023/06/12 - 16:54:56 | 200 |     156.011µs |  104.28.245.171 | GET      "/api/admin/driver/names"
+[GIN] 2023/06/12 - 16:54:56 | 200 |      892.27µs |  104.28.245.171 | GET      "/api/admin/storage/list"
+[GIN] 2023/06/12 - 16:57:34 | 200 |      556.27µs |  104.28.245.171 | POST     "/api/admin/storage/disable?id=1"
+[GIN] 2023/06/12 - 16:57:34 | 200 |      927.32µs |  104.28.245.171 | GET      "/api/admin/storage/list"
+[31mERRO[0m[2023-06-12 16:57:37] failed load storage: failed init storage: Trigger security policy : Please try again later 
+[GIN] 2023/06/12 - 16:57:37 | 200 |  1.275968644s |  104.28.245.171 | POST     "/api/admin/storage/enable?id=1"
