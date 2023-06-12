@@ -2578,3 +2578,488 @@ failed get objs
 [GIN] 2023/06/12 - 05:26:28 | 200 |     151.489µs |  104.28.213.172 | GET      "/images/nplayer.webp"
 [GIN] 2023/06/12 - 05:26:28 | 200 |      204.64µs |  104.28.213.172 | GET      "/images/potplayer.webp"
 [GIN] 2023/06/12 - 05:26:28 | 200 |     181.589µs |  104.28.213.172 | GET      "/images/mxplayer-pro.webp"
+[GIN] 2023/06/12 - 05:26:39 | 200 |     1.24829ms |  104.28.213.172 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 05:26:46 | 200 |  207.902829ms |  104.28.213.172 | POST     "/api/fs/get"
+[GIN] 2023/06/12 - 05:26:47 | 200 |      282.76µs |  104.28.213.172 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 05:26:50 | 200 |   52.540707ms |  104.28.213.172 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 05:26:52 | 200 |  209.249498ms |  104.28.213.172 | POST     "/api/fs/get"
+[GIN] 2023/06/12 - 05:28:28 | 200 |      87.929µs |  104.28.213.172 | GET      "/"
+[GIN] 2023/06/12 - 05:28:29 | 200 |       83.35µs |  104.28.213.172 | GET      "/api/public/settings"
+[GIN] 2023/06/12 - 05:28:29 | 200 |       103.8µs |  104.28.213.172 | GET      "/api/me"
+[GIN] 2023/06/12 - 05:28:29 | 200 |      301.54µs |  104.28.213.172 | POST     "/api/fs/get"
+[GIN] 2023/06/12 - 05:28:29 | 200 |      211.04µs |  104.28.213.172 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 05:28:32 | 200 |     123.531µs |  104.28.213.172 | GET      "/api/me"
+[GIN] 2023/06/12 - 05:28:36 | 200 |      139.11µs |  104.28.213.172 | GET      "/api/admin/driver/names"
+[GIN] 2023/06/12 - 05:28:36 | 200 |     1.19273ms |  104.28.213.172 | GET      "/api/admin/storage/list"
+[GIN] 2023/06/12 - 05:28:37 | 200 |     1.20891ms |  104.28.213.172 | GET      "/api/admin/driver/list"
+[GIN] 2023/06/12 - 05:29:11 | 200 |    1.664379ms |  104.28.213.172 | POST     "/api/admin/storage/create"
+[GIN] 2023/06/12 - 05:29:12 | 200 |         149µs |  104.28.213.172 | GET      "/api/admin/driver/names"
+[GIN] 2023/06/12 - 05:29:12 | 200 |    1.378569ms |  104.28.213.172 | GET      "/api/admin/storage/list"
+[GIN] 2023/06/12 - 05:29:16 | 200 |      117.81µs |  104.28.213.172 | GET      "/"
+[GIN] 2023/06/12 - 05:29:16 | 200 |       72.46µs |  104.28.213.172 | GET      "/api/public/settings"
+[GIN] 2023/06/12 - 05:29:17 | 200 |      190.14µs |  104.28.213.172 | GET      "/api/me"
+[GIN] 2023/06/12 - 05:29:17 | 200 |      219.32µs |  104.28.213.172 | POST     "/api/fs/get"
+[GIN] 2023/06/12 - 05:29:17 | 200 |      347.29µs |  104.28.213.172 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 05:29:20 | 200 |  688.814073ms |  104.28.213.172 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 05:29:46 | 200 |      470.06µs |  104.28.213.172 | POST     "/api/admin/storage/delete?id=20"
+[GIN] 2023/06/12 - 05:29:47 | 200 |       804.7µs |  104.28.213.172 | GET      "/api/admin/storage/list"
+[GIN] 2023/06/12 - 05:29:49 | 200 |      281.01µs |  104.28.213.172 | GET      "/api/admin/storage/get?id=21"
+[GIN] 2023/06/12 - 05:29:49 | 200 |      108.36µs |  104.28.213.172 | GET      "/api/admin/driver/info?driver=WebDav"
+[GIN] 2023/06/12 - 05:30:12 | 200 |     920.771µs |  104.28.213.172 | POST     "/api/admin/storage/update"
+[GIN] 2023/06/12 - 05:30:13 | 200 |      153.18µs |  104.28.213.172 | GET      "/api/admin/driver/names"
+[GIN] 2023/06/12 - 05:30:13 | 200 |     1.09792ms |  104.28.213.172 | GET      "/api/admin/storage/list"
+[GIN] 2023/06/12 - 05:30:14 | 200 |      131.75µs |  104.28.213.172 | GET      "/11"
+[GIN] 2023/06/12 - 05:30:15 | 200 |       85.87µs |  104.28.213.172 | GET      "/api/public/settings"
+[GIN] 2023/06/12 - 05:30:15 | 200 |      94.371µs |  104.28.213.172 | GET      "/api/me"
+[GIN] 2023/06/12 - 05:30:15 | 200 |       232.1µs |  104.28.213.172 | POST     "/api/fs/get"
+[GIN] 2023/06/12 - 05:30:16 | 200 |      187.33µs |  104.28.213.172 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 05:30:18 | 200 |      250.59µs |  104.28.213.172 | POST     "/api/fs/get"
+[GIN] 2023/06/12 - 05:30:18 | 200 |      190.35µs |  104.28.213.172 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 05:30:19 | 200 |      240.12µs |  104.28.213.172 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 05:30:25 | 200 |     140.409µs |  104.28.213.172 | GET      "/"
+[GIN] 2023/06/12 - 05:30:25 | 200 |      108.43µs |  104.28.213.172 | GET      "/api/public/settings"
+[GIN] 2023/06/12 - 05:30:26 | 200 |      140.74µs |  104.28.213.172 | GET      "/api/me"
+[GIN] 2023/06/12 - 05:30:26 | 200 |      189.99µs |  104.28.213.172 | POST     "/api/fs/get"
+[GIN] 2023/06/12 - 05:30:26 | 200 |      242.47µs |  104.28.213.172 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 05:30:28 | 200 |      227.37µs |  104.28.213.172 | POST     "/api/fs/list"
+[31mERRO[0m[2023-06-12 05:30:31] fs/list: PROPFIND /dav/tlv2/: 404
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.4/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.4/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.4/x64/src/runtime/asm_amd64.s:1598 
+[31mERRO[0m[2023-06-12 05:30:31] failed list /11/tlv2: PROPFIND /dav/tlv2/: 404
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.4/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.4/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.4/x64/src/runtime/asm_amd64.s:1598
+failed get objs 
+[GIN] 2023/06/12 - 05:30:31 | 200 |  905.686401ms |  104.28.213.172 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 05:30:32 | 200 |      196.06µs |  104.28.213.172 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 05:30:35 | 200 |      413.56µs |  104.28.213.172 | GET      "/api/admin/storage/get?id=21"
+[GIN] 2023/06/12 - 05:30:35 | 200 |      186.56µs |  104.28.213.172 | GET      "/api/admin/driver/info?driver=WebDav"
+[GIN] 2023/06/12 - 05:30:54 | 200 |  143.757412ms |  104.28.213.172 | POST     "/api/admin/storage/update"
+[GIN] 2023/06/12 - 05:30:54 | 200 |      155.63µs |  104.28.213.172 | GET      "/api/admin/driver/names"
+[GIN] 2023/06/12 - 05:30:54 | 200 |     1.11805ms |  104.28.213.172 | GET      "/api/admin/storage/list"
+[GIN] 2023/06/12 - 05:30:57 | 200 |      83.409µs |  104.28.213.172 | GET      "/"
+[GIN] 2023/06/12 - 05:30:58 | 200 |       77.98µs |  104.28.213.172 | GET      "/api/public/settings"
+[GIN] 2023/06/12 - 05:30:58 | 200 |     101.489µs |  104.28.213.172 | GET      "/api/me"
+[GIN] 2023/06/12 - 05:30:58 | 200 |      230.63µs |  104.28.213.172 | POST     "/api/fs/get"
+[GIN] 2023/06/12 - 05:30:59 | 200 |      294.25µs |  104.28.213.172 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 05:30:59 | 200 |       215.5µs |  104.28.213.172 | POST     "/api/fs/list"
+[31mERRO[0m[2023-06-12 05:31:01] fs/list: PROPFIND /dav/rep/: 404
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.4/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.4/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.4/x64/src/runtime/asm_amd64.s:1598 
+[31mERRO[0m[2023-06-12 05:31:01] failed list /11/rep: PROPFIND /dav/rep/: 404
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.4/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.4/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.4/x64/src/runtime/asm_amd64.s:1598
+failed get objs 
+[GIN] 2023/06/12 - 05:31:01 | 200 |   372.79312ms |  104.28.213.172 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 05:31:02 | 200 |     195.511µs |  104.28.213.172 | POST     "/api/fs/list"
+[31mERRO[0m[2023-06-12 05:31:03] fs/list: PROPFIND /dav/ani/: 404
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.4/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.4/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.4/x64/src/runtime/asm_amd64.s:1598 
+[31mERRO[0m[2023-06-12 05:31:03] failed list /11/ani: PROPFIND /dav/ani/: 404
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.4/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.4/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.4/x64/src/runtime/asm_amd64.s:1598
+failed get objs 
+[GIN] 2023/06/12 - 05:31:03 | 200 |   190.18816ms |  104.28.213.172 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 05:31:04 | 200 |      239.46µs |  104.28.213.172 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 05:31:10 | 200 |      139.99µs |  104.28.213.172 | GET      "/api/me"
+[GIN] 2023/06/12 - 05:31:13 | 200 |         140µs |  104.28.213.172 | GET      "/api/admin/driver/names"
+[GIN] 2023/06/12 - 05:31:13 | 200 |     1.48852ms |  104.28.213.172 | GET      "/api/admin/storage/list"
+[GIN] 2023/06/12 - 05:31:16 | 200 |      328.26µs |  104.28.213.172 | GET      "/api/admin/storage/get?id=21"
+[GIN] 2023/06/12 - 05:31:17 | 200 |      111.98µs |  104.28.213.172 | GET      "/api/admin/driver/info?driver=WebDav"
+[GIN] 2023/06/12 - 05:31:37 | 200 |      806.72µs |  104.28.213.172 | POST     "/api/admin/storage/update"
+[GIN] 2023/06/12 - 05:31:37 | 200 |      105.62µs |  104.28.213.172 | GET      "/api/admin/driver/names"
+[GIN] 2023/06/12 - 05:31:37 | 200 |     1.16294ms |  104.28.213.172 | GET      "/api/admin/storage/list"
+[GIN] 2023/06/12 - 05:31:40 | 200 |       77.28µs |  104.28.213.172 | GET      "/"
+[GIN] 2023/06/12 - 05:31:41 | 200 |       82.81µs |  104.28.213.172 | GET      "/api/public/settings"
+[GIN] 2023/06/12 - 05:31:41 | 200 |      118.82µs |  104.28.213.172 | GET      "/api/me"
+[GIN] 2023/06/12 - 05:31:41 | 200 |      201.66µs |  104.28.213.172 | POST     "/api/fs/get"
+[GIN] 2023/06/12 - 05:31:42 | 200 |      259.74µs |  104.28.213.172 | POST     "/api/fs/list"
+[31mERRO[0m[2023-06-12 05:31:43] fs/list: ReadDir /dav/: Propfind "https://a.a-bson.repl.co:443/dav/": remote error: tls: internal error
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.4/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.4/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.4/x64/src/runtime/asm_amd64.s:1598 
+[31mERRO[0m[2023-06-12 05:31:43] failed list /112: ReadDir /dav/: Propfind "https://a.a-bson.repl.co:443/dav/": remote error: tls: internal error
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.4/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.4/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.4/x64/src/runtime/asm_amd64.s:1598
+failed get objs 
+[GIN] 2023/06/12 - 05:31:43 | 200 |  227.148168ms |  104.28.213.172 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 05:31:53 | 200 |      572.66µs |  104.28.213.172 | POST     "/api/admin/storage/delete?id=21"
+[GIN] 2023/06/12 - 05:31:53 | 200 |     1.01661ms |  104.28.213.172 | GET      "/api/admin/storage/list"
+[GIN] 2023/06/12 - 05:31:55 | 200 |     1.29323ms |  104.28.213.172 | GET      "/api/admin/driver/list"
+[31mERRO[0m[2023-06-12 05:32:31] failed init storage but storage is already created: failed init storage: Get "https://a.a-bson.repl.co:443/api/me": remote error: tls: internal error 
+[GIN] 2023/06/12 - 05:32:31 | 200 |  1.384177314s |  104.28.213.172 | POST     "/api/admin/storage/create"
+[GIN] 2023/06/12 - 05:32:31 | 200 |      302.69µs |  104.28.213.172 | GET      "/api/admin/storage/get?id=20"
+[GIN] 2023/06/12 - 05:32:32 | 200 |      116.06µs |  104.28.213.172 | GET      "/api/admin/driver/info?driver=AList%20V3"
+[31mERRO[0m[2023-06-12 05:32:47] failed init storage: Get "https://a.a-bson.repl.co:443/api/me": remote error: tls: internal error 
+[GIN] 2023/06/12 - 05:32:47 | 200 |  2.937511891s |  104.28.213.172 | POST     "/api/admin/storage/update"
+[GIN] 2023/06/12 - 05:33:43 | 200 |     1.12599ms |  104.28.213.172 | GET      "/api/admin/driver/list"
+[31mERRO[0m[2023-06-12 05:34:12] failed create storage in database: UNIQUE constraint failed: x_storages.mount_path 
+[GIN] 2023/06/12 - 05:34:12 | 200 |     1.81782ms |  104.28.213.172 | POST     "/api/admin/storage/create"
+[31mERRO[0m[2023-06-12 05:34:20] failed create storage in database: UNIQUE constraint failed: x_storages.mount_path 
+[GIN] 2023/06/12 - 05:34:20 | 200 |      765.38µs |  104.28.213.172 | POST     "/api/admin/storage/create"
+[33mWARN[0m[2023-06-12 13:16:49] not enable search                            
+[33mWARN[0m[2023-06-12 13:16:49] not enable search                            
+[GIN] 2023/06/12 - 13:16:53 | 200 |      108.31µs |  104.28.213.173 | GET      "/"
+[GIN] 2023/06/12 - 13:16:54 | 200 |       109.7µs |  104.28.213.173 | GET      "/api/public/settings"
+[GIN] 2023/06/12 - 13:16:56 | 200 |       96.47µs |  104.28.213.173 | GET      "/"
+[GIN] 2023/06/12 - 13:16:57 | 200 |       59.69µs |  104.28.213.173 | GET      "/api/public/settings"
+[GIN] 2023/06/12 - 13:17:00 | 200 |      126.92µs |  104.28.213.173 | GET      "/"
+[GIN] 2023/06/12 - 13:17:00 | 200 |      555.16µs |  104.28.213.173 | GET      "/api/public/settings"
+[GIN] 2023/06/12 - 13:17:00 | 200 |     467.069µs |  104.28.213.173 | GET      "/api/me"
+[GIN] 2023/06/12 - 13:17:01 | 200 |       703.6µs |  104.28.213.173 | POST     "/api/fs/get"
+[GIN] 2023/06/12 - 13:17:01 | 200 |      365.52µs |  104.28.213.173 | POST     "/api/fs/list"
+[GIN] 2023/06/12 - 13:17:02 | 200 |       86.84µs |  104.28.213.173 | GET      "/api/me"
+[GIN] 2023/06/12 - 13:17:05 | 200 |      116.43µs |  104.28.213.173 | GET      "/api/admin/driver/names"
+[GIN] 2023/06/12 - 13:17:05 | 200 |     1.14487ms |  104.28.213.173 | GET      "/api/admin/storage/list"
+[GIN] 2023/06/12 - 13:17:08 | 200 |     1.22875ms |  104.28.213.173 | GET      "/api/admin/driver/list"
+[GIN] 2023/06/12 - 13:17:39 | 200 |  197.346104ms |  104.28.213.173 | POST     "/api/admin/storage/create"
+[GIN] 2023/06/12 - 13:17:40 | 200 |       90.98µs |  104.28.213.173 | GET      "/api/admin/driver/names"
+[GIN] 2023/06/12 - 13:17:40 | 200 |     1.12439ms |  104.28.213.173 | GET      "/api/admin/storage/list"
+[GIN] 2023/06/12 - 13:17:57 | 200 |      405.91µs |  104.28.213.173 | GET      "/api/admin/storage/get?id=20"
+[GIN] 2023/06/12 - 13:17:58 | 200 |     256.969µs |  104.28.213.173 | GET      "/api/admin/driver/info?driver=AList%20V3"
+[GIN] 2023/06/12 - 13:18:23 | 200 |      116.52µs |  104.28.213.173 | GET      "/api/admin/driver/names"
+[GIN] 2023/06/12 - 13:18:23 | 200 |      849.41µs |  104.28.213.173 | GET      "/api/admin/storage/list"
+[GIN] 2023/06/12 - 13:18:26 | 200 |      591.11µs |  104.28.213.173 | POST     "/api/admin/storage/delete?id=20"
+[GIN] 2023/06/12 - 13:18:27 | 200 |     807.419µs |  104.28.213.173 | GET      "/api/admin/storage/list"
