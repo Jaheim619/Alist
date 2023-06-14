@@ -4486,3 +4486,64 @@ failed get objs
 [GIN] 2023/06/14 - 08:06:34 | 200 |     226.631µs |  104.28.213.172 | POST     "/api/fs/list"
 [GIN] 2023/06/14 - 08:06:36 | 200 |  179.886078ms |  104.28.213.172 | POST     "/api/fs/list"
 [GIN] 2023/06/14 - 08:06:37 | 200 |      230.85µs |  104.28.213.172 | POST     "/api/fs/list"
+[33mWARN[0m[2023-06-14 08:19:13] not enable search                            
+[33mWARN[0m[2023-06-14 08:19:13] not enable search                            
+[GIN] 2023/06/14 - 08:19:27 | 200 |      243.76µs |  104.28.213.172 | GET      "/"
+[GIN] 2023/06/14 - 08:19:27 | 200 |      601.31µs |  104.28.213.172 | GET      "/api/public/settings"
+[GIN] 2023/06/14 - 08:19:27 | 200 |      563.89µs |  104.28.213.172 | GET      "/api/me"
+[GIN] 2023/06/14 - 08:19:28 | 200 |      862.23µs |  104.28.213.172 | POST     "/api/fs/get"
+[GIN] 2023/06/14 - 08:19:28 | 200 |     1.38917ms |  104.28.213.172 | POST     "/api/fs/list"
+[GIN] 2023/06/14 - 08:19:33 | 200 |       93.68µs |  104.28.213.172 | GET      "/api/me"
+[GIN] 2023/06/14 - 08:19:39 | 200 |      142.19µs |  104.28.213.172 | GET      "/api/admin/driver/names"
+[GIN] 2023/06/14 - 08:19:39 | 200 |     1.51102ms |  104.28.213.172 | GET      "/api/admin/storage/list"
+[GIN] 2023/06/14 - 08:19:58 | 200 |     508.249µs |  104.28.213.172 | GET      "/api/admin/storage/get?id=27"
+[GIN] 2023/06/14 - 08:19:58 | 200 |      369.02µs |  104.28.213.172 | GET      "/api/admin/driver/info?driver=WebDav"
+[GIN] 2023/06/14 - 08:20:24 | 200 |      102.75µs |  104.28.213.172 | GET      "/"
+[GIN] 2023/06/14 - 08:20:25 | 200 |       85.22µs |  104.28.213.172 | GET      "/api/public/settings"
+[GIN] 2023/06/14 - 08:20:25 | 200 |       88.78µs |  104.28.213.172 | GET      "/api/me"
+[GIN] 2023/06/14 - 08:20:25 | 200 |      249.32µs |  104.28.213.172 | POST     "/api/fs/get"
+[GIN] 2023/06/14 - 08:20:26 | 200 |      232.34µs |  104.28.213.172 | POST     "/api/fs/list"
+[GIN] 2023/06/14 - 08:20:35 | 200 |  1.005217099s |  104.28.213.172 | POST     "/api/fs/list"
+[GIN] 2023/06/14 - 08:21:24 | 200 |      949.66µs |  104.28.213.172 | POST     "/api/admin/storage/update"
+[GIN] 2023/06/14 - 08:21:25 | 200 |     237.749µs |  104.28.213.172 | GET      "/api/admin/driver/names"
+[GIN] 2023/06/14 - 08:21:25 | 200 |     1.90524ms |  104.28.213.172 | GET      "/api/admin/storage/list"
+[GIN] 2023/06/14 - 08:21:31 | 200 |      580.67µs |  104.28.213.172 | POST     "/api/admin/storage/load_all"
+[31mERRO[0m[2023-06-14 08:21:32] failed get enabled storages: Trigger security policy : Please try again later
+failed init storage
+github.com/alist-org/alist/v3/internal/op.initStorage
+	/home/runner/work/alist/alist/internal/op/storage.go:99
+github.com/alist-org/alist/v3/internal/op.LoadStorage
+	/home/runner/work/alist/alist/internal/op/storage.go:80
+github.com/alist-org/alist/v3/server/handles.LoadAllStorages.func1
+	/home/runner/work/alist/alist/server/handles/storage.go:142
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.4/x64/src/runtime/asm_amd64.s:1598 
+[36mINFO[0m[2023-06-14 08:21:33] success load storage: [/Terabox], driver: [Terabox] 
+[36mINFO[0m[2023-06-14 08:21:34] success load storage: [/Pikpak], driver: [PikPak] 
+[36mINFO[0m[2023-06-14 08:21:34] success load storage: [/Pikpak1], driver: [PikPak] 
+[36mINFO[0m[2023-06-14 08:21:34] success load storage: [/Onedrive], driver: [Onedrive] 
+[GIN] 2023/06/14 - 08:21:35 | 200 |       74.52µs |  104.28.213.172 | POST     "/api/admin/storage/load_all"
+[36mINFO[0m[2023-06-14 08:21:35] success load storage: [/Pikpak2], driver: [PikPak] 
+[36mINFO[0m[2023-06-14 08:21:36] success load storage: [/Ali], driver: [AliyundriveOpen] 
+[36mINFO[0m[2023-06-14 08:21:37] success load storage: [/pikpak3], driver: [AList V3] 
+[31mERRO[0m[2023-06-14 08:21:37] failed get enabled storages: the site does not allow mounted
+failed init storage
+github.com/alist-org/alist/v3/internal/op.initStorage
+	/home/runner/work/alist/alist/internal/op/storage.go:99
+github.com/alist-org/alist/v3/internal/op.LoadStorage
+	/home/runner/work/alist/alist/internal/op/storage.go:80
+github.com/alist-org/alist/v3/server/handles.LoadAllStorages.func1
+	/home/runner/work/alist/alist/server/handles/storage.go:142
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.4/x64/src/runtime/asm_amd64.s:1598 
+[36mINFO[0m[2023-06-14 08:21:38] success load storage: [/Huge:1443], driver: [AList V3] 
+[36mINFO[0m[2023-06-14 08:21:38] success load storage: [/9t adult], driver: [AList V3] 
+[36mINFO[0m[2023-06-14 08:21:38] success load storage: [/百家盘], driver: [WebDav] 
+[36mINFO[0m[2023-06-14 08:21:38] success load storage: [/HKD], driver: [AList V3] 
+[36mINFO[0m[2023-06-14 08:21:38] success load storage: [/Videos], driver: [AList V3] 
+[36mINFO[0m[2023-06-14 08:21:39] success load storage: [/PikPak4], driver: [AList V3] 
+[36mINFO[0m[2023-06-14 08:21:39] success load storage: [/图集], driver: [AList V3] 
+[36mINFO[0m[2023-06-14 08:21:39] success load storage: [/乱], driver: [AList V3] 
+[36mINFO[0m[2023-06-14 08:21:39] success load storage: [/图], driver: [AList V3] 
+[36mINFO[0m[2023-06-14 08:21:39] success load storage: [/Sodaz], driver: [WebDav] 
+[36mINFO[0m[2023-06-14 08:21:40] success load storage: [/Ccome], driver: [AList V3] 
