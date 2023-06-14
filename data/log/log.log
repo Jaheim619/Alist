@@ -4547,3 +4547,35 @@ runtime.goexit
 [36mINFO[0m[2023-06-14 08:21:39] success load storage: [/图], driver: [AList V3] 
 [36mINFO[0m[2023-06-14 08:21:39] success load storage: [/Sodaz], driver: [WebDav] 
 [36mINFO[0m[2023-06-14 08:21:40] success load storage: [/Ccome], driver: [AList V3] 
+[33mWARN[0m[2023-06-14 16:06:04] not enable search                            
+[33mWARN[0m[2023-06-14 16:06:04] not enable search                            
+[GIN] 2023/06/14 - 16:06:08 | 200 |      255.44µs |  104.28.245.172 | GET      "/"
+[GIN] 2023/06/14 - 16:06:09 | 200 |      129.99µs |  104.28.245.172 | GET      "/api/public/settings"
+[GIN] 2023/06/14 - 16:06:24 | 200 |       90.13µs |  104.28.245.172 | GET      "/"
+[GIN] 2023/06/14 - 16:06:24 | 200 |      427.16µs |  104.28.245.172 | GET      "/api/public/settings"
+[GIN] 2023/06/14 - 16:06:25 | 200 |      376.12µs |  104.28.245.172 | GET      "/api/me"
+[GIN] 2023/06/14 - 16:06:25 | 200 |      574.78µs |  104.28.245.172 | POST     "/api/fs/get"
+[GIN] 2023/06/14 - 16:06:25 | 200 |      429.91µs |  104.28.245.172 | POST     "/api/fs/list"
+[GIN] 2023/06/14 - 16:06:27 | 200 |        90.8µs |  104.28.245.172 | GET      "/api/me"
+[GIN] 2023/06/14 - 16:06:30 | 200 |     122.631µs |  104.28.245.172 | GET      "/"
+[GIN] 2023/06/14 - 16:06:30 | 200 |       107.5µs |  104.28.245.172 | GET      "/api/public/settings"
+[GIN] 2023/06/14 - 16:06:31 | 200 |      149.81µs |  104.28.245.172 | GET      "/api/me"
+[GIN] 2023/06/14 - 16:06:32 | 200 |      214.65µs |  104.28.245.172 | GET      "/api/admin/driver/names"
+[GIN] 2023/06/14 - 16:06:32 | 200 |     1.48295ms |  104.28.245.172 | GET      "/api/admin/storage/list"
+[GIN] 2023/06/14 - 16:06:33 | 200 |     3.15688ms |  104.28.245.172 | GET      "/api/admin/driver/list"
+[31mERRO[0m[2023-06-14 16:06:46] failed init storage but storage is already created: failed init storage: the site does not allow mounted 
+[GIN] 2023/06/14 - 16:06:46 | 200 |  1.291231919s |  104.28.245.172 | POST     "/api/admin/storage/create"
+[GIN] 2023/06/14 - 16:06:47 | 200 |      493.59µs |  104.28.245.172 | GET      "/api/admin/storage/get?id=29"
+[GIN] 2023/06/14 - 16:06:47 | 200 |      313.85µs |  104.28.245.172 | GET      "/api/admin/driver/info?driver=AList%20V3"
+[GIN] 2023/06/14 - 16:07:01 | 200 |       76.84µs |  104.28.245.172 | GET      "/api/public/settings"
+[GIN] 2023/06/14 - 16:07:02 | 200 |      120.17µs |  104.28.245.172 | GET      "/api/me"
+[GIN] 2023/06/14 - 16:07:02 | 200 |      258.96µs |  104.28.245.172 | POST     "/api/fs/get"
+[GIN] 2023/06/14 - 16:07:03 | 200 |      288.18µs |  104.28.245.172 | POST     "/api/fs/list"
+[GIN] 2023/06/14 - 16:09:58 | 200 |  2.168881347s |  104.28.245.172 | POST     "/api/admin/storage/update"
+[GIN] 2023/06/14 - 16:09:59 | 200 |    1.063749ms |  104.28.245.172 | GET      "/api/admin/driver/list"
+[GIN] 2023/06/14 - 16:10:03 | 200 |      90.559µs |  104.28.245.172 | GET      "/"
+[GIN] 2023/06/14 - 16:10:03 | 200 |      105.84µs |  104.28.245.172 | GET      "/api/public/settings"
+[GIN] 2023/06/14 - 16:10:04 | 200 |       93.74µs |  104.28.245.172 | GET      "/api/me"
+[GIN] 2023/06/14 - 16:10:04 | 200 |      289.55µs |  104.28.245.172 | POST     "/api/fs/get"
+[GIN] 2023/06/14 - 16:10:04 | 200 |      335.02µs |  104.28.245.172 | POST     "/api/fs/list"
+[GIN] 2023/06/14 - 16:10:07 | 200 |  858.395529ms |  104.28.245.172 | POST     "/api/fs/list"
