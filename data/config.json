@@ -2,6 +2,7 @@
   "force": false,
   "address": "0.0.0.0",
   "port": 5244,
+  "https_port": 5245,
   "site_url": "",
   "cdn": "",
   "jwt_secret": "cTNCPwvGR2pWCsbn",
@@ -18,7 +19,9 @@
     "ssl_mode": ""
   },
   "scheme": {
+    "disable_http": false,
     "https": false,
+    "force_https": false,
     "cert_file": "",
     "key_file": ""
   },
@@ -32,6 +35,7 @@
     "max_age": 28,
     "compress": false
   },
+  "delayed_start": 0,
   "max_connections": 0,
   "tls_insecure_skip_verify": true
 }
