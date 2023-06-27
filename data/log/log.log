@@ -4814,3 +4814,925 @@ runtime.goexit
 [GIN] 2023/06/24 - 17:45:16 | 200 |      295.38µs |  223.73.158.217 | GET      "/api/admin/driver/info?driver=AList%20V3"
 [GIN] 2023/06/24 - 17:45:48 | 200 |      238.74µs |  223.73.158.217 | GET      "/api/admin/driver/names"
 [GIN] 2023/06/24 - 17:45:48 | 200 |      872.07µs |  223.73.158.217 | GET      "/api/admin/storage/list"
+[33mWARN[0m[2023-06-25 06:42:19] not enable search                            
+[33mWARN[0m[2023-06-25 06:42:19] not enable search                            
+[GIN] 2023/06/25 - 06:42:23 | 200 |      102.17µs |  223.73.158.217 | GET      "/"
+[GIN] 2023/06/25 - 06:42:24 | 200 |     5.40681ms |  223.73.158.217 | GET      "/assets/index.15d8d646.css"
+[GIN] 2023/06/25 - 06:42:24 | 200 |      6.7347ms |  223.73.158.217 | GET      "/assets/index.8bc00b61.js"
+[GIN] 2023/06/25 - 06:42:24 | 200 |     291.869µs |  223.73.158.217 | GET      "/assets/entry.53635130.js"
+[GIN] 2023/06/25 - 06:42:24 | 200 |      113.85µs |  223.73.158.217 | GET      "/api/public/settings"
+[GIN] 2023/06/25 - 06:42:35 | 200 |        73.3µs |  223.73.158.217 | GET      "/"
+[GIN] 2023/06/25 - 06:42:35 | 200 |       87.57µs |  223.73.158.217 | GET      "/api/public/settings"
+[GIN] 2023/06/25 - 06:42:38 | 200 |       80.37µs |  223.73.158.217 | GET      "/"
+[GIN] 2023/06/25 - 06:42:38 | 200 |       49.42µs |  223.73.158.217 | GET      "/api/public/settings"
+[GIN] 2023/06/25 - 06:42:52 | 200 |      78.211µs |  223.73.158.217 | GET      "/"
+[GIN] 2023/06/25 - 06:42:53 | 200 |       56.13µs |  223.73.158.217 | GET      "/api/public/settings"
+[GIN] 2023/06/25 - 06:42:55 | 200 |        72.2µs |  223.73.158.217 | GET      "/"
+[GIN] 2023/06/25 - 06:42:55 | 200 |       63.69µs |  223.73.158.217 | GET      "/api/public/settings"
+[GIN] 2023/06/25 - 06:42:57 | 200 |     116.289µs |  223.73.158.217 | GET      "/"
+[GIN] 2023/06/25 - 06:42:58 | 200 |       61.69µs |  223.73.158.217 | GET      "/api/public/settings"
+[GIN] 2023/06/25 - 06:43:03 | 200 |      108.99µs |  223.73.158.217 | GET      "/"
+[GIN] 2023/06/25 - 06:43:03 | 200 |      174.22µs |  223.73.158.217 | GET      "/api/public/settings"
+[GIN] 2023/06/25 - 06:43:09 | 200 |       95.66µs |  223.73.158.217 | GET      "/"
+[GIN] 2023/06/25 - 06:43:10 | 200 |       78.62µs |  223.73.158.217 | GET      "/api/public/settings"
+[GIN] 2023/06/25 - 06:43:12 | 200 |      107.13µs |  223.73.158.217 | GET      "/"
+[GIN] 2023/06/25 - 06:43:13 | 200 |       73.76µs |  223.73.158.217 | GET      "/api/public/settings"
+[GIN] 2023/06/25 - 06:43:15 | 200 |      132.15µs |  223.73.158.217 | GET      "/"
+[GIN] 2023/06/25 - 06:43:15 | 200 |        56.7µs |  223.73.158.217 | GET      "/api/public/settings"
+[GIN] 2023/06/25 - 06:43:21 | 200 |      84.809µs |  223.73.158.217 | GET      "/"
+[GIN] 2023/06/25 - 06:43:21 | 200 |       62.51µs |  223.73.158.217 | GET      "/api/public/settings"
+[GIN] 2023/06/25 - 06:43:38 | 200 |         150µs |  223.73.158.217 | GET      "/"
+[GIN] 2023/06/25 - 06:43:38 | 200 |       53.04µs |  223.73.158.217 | GET      "/api/public/settings"
+[GIN] 2023/06/25 - 06:43:40 | 200 |      79.089µs |  223.73.158.217 | GET      "/"
+[GIN] 2023/06/25 - 06:43:40 | 200 |       60.57µs |  223.73.158.217 | GET      "/api/public/settings"
+[GIN] 2023/06/25 - 06:43:46 | 200 |       96.61µs |  223.73.158.217 | GET      "/"
+[GIN] 2023/06/25 - 06:43:47 | 200 |      59.211µs |  223.73.158.217 | GET      "/api/public/settings"
+[GIN] 2023/06/25 - 06:43:54 | 200 |       99.99µs |  223.73.158.217 | GET      "/"
+[GIN] 2023/06/25 - 06:43:54 | 200 |       59.77µs |  223.73.158.217 | GET      "/api/public/settings"
+[GIN] 2023/06/25 - 06:43:57 | 200 |       95.13µs |  223.73.158.217 | GET      "/"
+[GIN] 2023/06/25 - 06:43:58 | 200 |       50.79µs |  223.73.158.217 | GET      "/api/public/settings"
+[GIN] 2023/06/25 - 06:44:03 | 200 |       89.79µs |  223.73.158.217 | GET      "/"
+[GIN] 2023/06/25 - 06:44:04 | 200 |       52.37µs |  223.73.158.217 | GET      "/api/public/settings"
+[GIN] 2023/06/25 - 06:44:05 | 200 |       103.1µs |  223.73.158.217 | GET      "/"
+[GIN] 2023/06/25 - 06:44:05 | 200 |       53.23µs |  223.73.158.217 | GET      "/api/public/settings"
+[GIN] 2023/06/25 - 06:44:15 | 200 |        99.5µs |  223.73.158.217 | GET      "/"
+[GIN] 2023/06/25 - 06:44:15 | 200 |       56.33µs |  223.73.158.217 | GET      "/api/public/settings"
+[GIN] 2023/06/25 - 06:44:30 | 200 |      103.79µs |  223.73.158.217 | GET      "/"
+[GIN] 2023/06/25 - 06:44:31 | 200 |      403.14µs |  223.73.158.217 | GET      "/api/public/settings"
+[GIN] 2023/06/25 - 06:44:31 | 200 |      376.35µs |  223.73.158.217 | GET      "/api/me"
+[GIN] 2023/06/25 - 06:44:31 | 200 |       63.34µs |  223.73.158.217 | GET      "/assets/useUtil.40d80b61.js"
+[GIN] 2023/06/25 - 06:44:31 | 200 |      189.63µs |  223.73.158.217 | GET      "/assets/index.d9a1a3ad.js"
+[GIN] 2023/06/25 - 06:44:31 | 200 |       25.96µs |  223.73.158.217 | GET      "/assets/api.29ecced1.js"
+[GIN] 2023/06/25 - 06:44:31 | 200 |      283.73µs |  223.73.158.217 | GET      "/assets/Layout.8dcaea2c.js"
+[GIN] 2023/06/25 - 06:44:31 | 200 |     2.61652ms |  223.73.158.217 | GET      "/assets/Markdown.d43c3108.js"
+[GIN] 2023/06/25 - 06:44:31 | 200 |       42.27µs |  223.73.158.217 | GET      "/assets/index.36258acc.js"
+[GIN] 2023/06/25 - 06:44:31 | 200 |        93.1µs |  223.73.158.217 | GET      "/assets/index.c0406227.js"
+[GIN] 2023/06/25 - 06:44:31 | 200 |       49.04µs |  223.73.158.217 | GET      "/assets/FolderTree.01224a89.js"
+[GIN] 2023/06/25 - 06:44:32 | 200 |      563.93µs |  223.73.158.217 | POST     "/api/fs/get"
+[GIN] 2023/06/25 - 06:44:32 | 200 |      457.71µs |  223.73.158.217 | POST     "/api/fs/list"
+[GIN] 2023/06/25 - 06:44:32 | 200 |       68.28µs |  223.73.158.217 | GET      "/assets/Paginator.caa45e85.js"
+[GIN] 2023/06/25 - 06:44:32 | 200 |       29.43µs |  223.73.158.217 | GET      "/assets/icon.6713c19f.js"
+[GIN] 2023/06/25 - 06:44:32 | 200 |      210.69µs |  223.73.158.217 | GET      "/assets/Folder.b511ba9e.css"
+[GIN] 2023/06/25 - 06:44:32 | 200 |      672.84µs |  223.73.158.217 | GET      "/assets/Folder.d76b8988.js"
+[GIN] 2023/06/25 - 06:44:32 | 200 |       67.16µs |  223.73.158.217 | GET      "/assets/List.4ef0ef55.js"
+[GIN] 2023/06/25 - 06:44:37 | 200 |       121.9µs |  223.73.158.217 | GET      "/api/me"
+[GIN] 2023/06/25 - 06:44:37 | 200 |      187.15µs |  223.73.158.217 | GET      "/assets/index.44986e2c.js"
+[GIN] 2023/06/25 - 06:44:37 | 200 |       61.29µs |  223.73.158.217 | GET      "/assets/Profile.e220e996.js"
+[GIN] 2023/06/25 - 06:44:39 | 200 |       92.16µs |  223.73.158.217 | GET      "/assets/Storages.39f30475.js"
+[GIN] 2023/06/25 - 06:44:39 | 200 |       74.59µs |  223.73.158.217 | GET      "/assets/DeletePopover.a16cf5c3.js"
+[GIN] 2023/06/25 - 06:44:39 | 200 |      135.86µs |  223.73.158.217 | GET      "/api/admin/driver/names"
+[GIN] 2023/06/25 - 06:44:39 | 200 |      989.72µs |  223.73.158.217 | GET      "/api/admin/storage/list"
+[GIN] 2023/06/25 - 06:45:00 | 200 |      227.59µs |  223.73.158.217 | GET      "/assets/AddOrEdit.e5a9850a.js"
+[GIN] 2023/06/25 - 06:45:00 | 200 |       39.12µs |  223.73.158.217 | GET      "/assets/item_type.be442da4.js"
+[GIN] 2023/06/25 - 06:45:00 | 200 |       43.82µs |  223.73.158.217 | GET      "/assets/ResponsiveGrid.fea4cff9.js"
+[GIN] 2023/06/25 - 06:45:00 | 200 |      383.29µs |  223.73.158.217 | GET      "/api/admin/storage/get?id=18"
+[GIN] 2023/06/25 - 06:45:01 | 200 |      324.73µs |  223.73.158.217 | GET      "/api/admin/driver/info?driver=AList%20V3"
+[31mERRO[0m[2023-06-25 06:45:13] failed init storage: Get "https://drive.9t.ee/api/me": dial tcp: lookup drive.9t.ee on 8.8.8.8:53: server misbehaving 
+[GIN] 2023/06/25 - 06:45:13 | 200 |   1.45931243s |  223.73.158.217 | POST     "/api/admin/storage/update"
+[31mERRO[0m[2023-06-25 06:45:26] failed init storage: Get "https://drive.9t.ee/api/me": dial tcp: lookup drive.9t.ee on 8.8.8.8:53: server misbehaving 
+[GIN] 2023/06/25 - 06:45:26 | 200 |  1.202605303s |  223.73.158.217 | POST     "/api/admin/storage/update"
+[31mERRO[0m[2023-06-25 06:45:31] failed init storage: Get "https://drive.9t.ee/api/me": dial tcp: lookup drive.9t.ee on 8.8.8.8:53: server misbehaving 
+[GIN] 2023/06/25 - 06:45:31 | 200 |  1.000605591s |  223.73.158.217 | POST     "/api/admin/storage/update"
+[GIN] 2023/06/25 - 06:45:42 | 200 |       103.6µs |  223.73.158.217 | GET      "/api/admin/driver/names"
+[GIN] 2023/06/25 - 06:45:42 | 200 |     1.30932ms |  223.73.158.217 | GET      "/api/admin/storage/list"
+[GIN] 2023/06/25 - 06:45:47 | 200 |    2.846869ms |  223.73.158.217 | GET      "/api/admin/driver/list"
+[GIN] 2023/06/25 - 06:46:16 | 200 |      928.63µs |  223.73.158.217 | POST     "/api/admin/storage/create"
+[GIN] 2023/06/25 - 06:46:16 | 200 |       97.28µs |  223.73.158.217 | GET      "/api/admin/driver/names"
+[GIN] 2023/06/25 - 06:46:16 | 200 |      955.71µs |  223.73.158.217 | GET      "/api/admin/storage/list"
+[GIN] 2023/06/25 - 06:46:23 | 200 |     113.571µs |  223.73.158.217 | GET      "/"
+[GIN] 2023/06/25 - 06:46:24 | 200 |     108.729µs |  223.73.158.217 | GET      "/api/public/settings"
+[GIN] 2023/06/25 - 06:46:24 | 200 |      113.97µs |  223.73.158.217 | GET      "/api/me"
+[GIN] 2023/06/25 - 06:46:24 | 200 |      230.72µs |  223.73.158.217 | POST     "/api/fs/get"
+[GIN] 2023/06/25 - 06:46:24 | 200 |      255.04µs |  223.73.158.217 | POST     "/api/fs/list"
+[31mERRO[0m[2023-06-25 06:46:26] fs/list: ReadDir /: Propfind "https://drive.9t.ee:443/": dial tcp: lookup drive.9t.ee on 8.8.8.8:53: server misbehaving
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598 
+[31mERRO[0m[2023-06-25 06:46:26] failed list /33: ReadDir /: Propfind "https://drive.9t.ee:443/": dial tcp: lookup drive.9t.ee on 8.8.8.8:53: server misbehaving
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598
+failed get objs 
+[GIN] 2023/06/25 - 06:46:26 | 200 |  383.397305ms |  223.73.158.217 | POST     "/api/fs/list"
+[GIN] 2023/06/25 - 06:46:36 | 200 |       228.3µs |  223.73.158.217 | POST     "/api/fs/list"
+[31mERRO[0m[2023-06-25 06:46:37] fs/list: storage not init: Get "https://drive.9t.ee/api/me": dial tcp: lookup drive.9t.ee on 8.8.8.8:53: server misbehaving
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:98
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598 
+[31mERRO[0m[2023-06-25 06:46:37] failed list /9t adult: storage not init: Get "https://drive.9t.ee/api/me": dial tcp: lookup drive.9t.ee on 8.8.8.8:53: server misbehaving
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:98
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598
+failed get objs 
+[GIN] 2023/06/25 - 06:46:37 | 200 |     527.789µs |  223.73.158.217 | POST     "/api/fs/list"
+[GIN] 2023/06/25 - 06:46:40 | 200 |      236.05µs |  223.73.158.217 | POST     "/api/fs/list"
+[GIN] 2023/06/25 - 06:47:31 | 200 |      332.98µs |  223.73.158.217 | GET      "/api/admin/storage/get?id=18"
+[GIN] 2023/06/25 - 06:47:31 | 200 |      118.21µs |  223.73.158.217 | GET      "/api/admin/driver/info?driver=AList%20V3"
+[31mERRO[0m[2023-06-25 06:47:48] failed init storage: Get "https://drive.9t.ee/api/me": dial tcp: lookup drive.9t.ee on 8.8.8.8:53: server misbehaving 
+[GIN] 2023/06/25 - 06:47:48 | 200 |  1.071315715s |  223.73.158.217 | POST     "/api/admin/storage/update"
+[31mERRO[0m[2023-06-25 06:47:58] failed init storage: Get "https://drive.9t.ee/api/me": dial tcp: lookup drive.9t.ee on 8.8.8.8:53: server misbehaving 
+[GIN] 2023/06/25 - 06:47:58 | 200 |  795.862479ms |  223.73.158.217 | POST     "/api/admin/storage/update"
+[31mERRO[0m[2023-06-25 06:48:18] failed init storage: Get "https://drive.9t.ee/api/me": dial tcp: lookup drive.9t.ee on 8.8.8.8:53: server misbehaving 
+[GIN] 2023/06/25 - 06:48:18 | 200 |   1.23672717s |  223.73.158.217 | POST     "/api/admin/storage/update"
+[31mERRO[0m[2023-06-25 06:48:37] failed init storage: Get "https://drive.9t.ee/api/me": dial tcp: lookup drive.9t.ee on 8.8.8.8:53: server misbehaving 
+[GIN] 2023/06/25 - 06:48:37 | 200 |  924.344637ms |  223.73.158.217 | POST     "/api/admin/storage/update"
+[33mWARN[0m[2023-06-27 09:50:34] not enable search                            
+[33mWARN[0m[2023-06-27 09:50:34] not enable search                            
+[GIN] 2023/06/27 - 09:52:12 | 200 |      102.63µs |  104.28.213.173 | GET      "/"
+[GIN] 2023/06/27 - 09:52:13 | 200 |    4.587169ms |  104.28.213.173 | GET      "/assets/index.15d8d646.css"
+[GIN] 2023/06/27 - 09:52:13 | 200 |     5.69342ms |  104.28.213.173 | GET      "/assets/index.8bc00b61.js"
+[GIN] 2023/06/27 - 09:52:14 | 200 |     285.689µs |  104.28.213.173 | GET      "/assets/entry.53635130.js"
+[GIN] 2023/06/27 - 09:52:14 | 200 |      498.04µs |  104.28.213.173 | GET      "/api/public/settings"
+[GIN] 2023/06/27 - 09:52:14 | 200 |       95.25µs |  104.28.213.173 | GET      "/api/me"
+[GIN] 2023/06/27 - 09:52:15 | 200 |      159.56µs |  104.28.213.173 | GET      "/assets/index.e8bcc381.js"
+[GIN] 2023/06/27 - 09:52:15 | 200 |      267.27µs |  104.28.213.173 | GET      "/assets/index.d9a1a3ad.js"
+[GIN] 2023/06/27 - 09:52:39 | 200 |       486.5µs |  104.28.213.173 | POST     "/api/auth/login"
+[GIN] 2023/06/27 - 09:52:39 | 200 |      207.82µs |  104.28.213.173 | GET      "/api/me"
+[GIN] 2023/06/27 - 09:52:40 | 200 |      237.39µs |  104.28.213.173 | GET      "/assets/Layout.8dcaea2c.js"
+[GIN] 2023/06/27 - 09:52:40 | 200 |       69.44µs |  104.28.213.173 | GET      "/assets/useUtil.40d80b61.js"
+[GIN] 2023/06/27 - 09:52:40 | 200 |       38.44µs |  104.28.213.173 | GET      "/assets/index.36258acc.js"
+[GIN] 2023/06/27 - 09:52:40 | 200 |       32.39µs |  104.28.213.173 | GET      "/assets/api.29ecced1.js"
+[GIN] 2023/06/27 - 09:52:40 | 200 |       38.64µs |  104.28.213.173 | GET      "/assets/FolderTree.01224a89.js"
+[GIN] 2023/06/27 - 09:52:40 | 200 |      103.59µs |  104.28.213.173 | GET      "/assets/index.c0406227.js"
+[GIN] 2023/06/27 - 09:52:40 | 200 |    1.264989ms |  104.28.213.173 | GET      "/assets/Markdown.d43c3108.js"
+[GIN] 2023/06/27 - 09:52:40 | 200 |      837.82µs |  104.28.213.173 | POST     "/api/fs/get"
+[GIN] 2023/06/27 - 09:52:40 | 200 |      612.27µs |  104.28.213.173 | POST     "/api/fs/list"
+[GIN] 2023/06/27 - 09:52:41 | 200 |      493.07µs |  104.28.213.173 | GET      "/assets/Folder.d76b8988.js"
+[GIN] 2023/06/27 - 09:52:41 | 200 |        37.1µs |  104.28.213.173 | GET      "/assets/Paginator.caa45e85.js"
+[GIN] 2023/06/27 - 09:52:41 | 200 |      114.02µs |  104.28.213.173 | GET      "/assets/icon.6713c19f.js"
+[GIN] 2023/06/27 - 09:52:41 | 200 |      274.37µs |  104.28.213.173 | GET      "/assets/Folder.b511ba9e.css"
+[GIN] 2023/06/27 - 09:52:41 | 200 |      104.13µs |  104.28.213.173 | GET      "/assets/List.4ef0ef55.js"
+[GIN] 2023/06/27 - 09:52:45 | 200 |      137.53µs |  104.28.213.173 | GET      "/api/me"
+[GIN] 2023/06/27 - 09:52:45 | 200 |      322.67µs |  104.28.213.173 | GET      "/assets/index.44986e2c.js"
+[GIN] 2023/06/27 - 09:52:45 | 200 |       77.44µs |  104.28.213.173 | GET      "/assets/Profile.e220e996.js"
+[GIN] 2023/06/27 - 09:52:47 | 200 |       98.45µs |  104.28.213.173 | GET      "/assets/DeletePopover.a16cf5c3.js"
+[GIN] 2023/06/27 - 09:52:47 | 200 |       92.84µs |  104.28.213.173 | GET      "/assets/Storages.39f30475.js"
+[GIN] 2023/06/27 - 09:52:47 | 200 |      158.01µs |  104.28.213.173 | GET      "/api/admin/driver/names"
+[GIN] 2023/06/27 - 09:52:47 | 200 |     1.60936ms |  104.28.213.173 | GET      "/api/admin/storage/list"
+[GIN] 2023/06/27 - 09:52:48 | 200 |      56.989µs |  104.28.213.173 | GET      "/assets/item_type.be442da4.js"
+[GIN] 2023/06/27 - 09:52:48 | 200 |      59.649µs |  104.28.213.173 | GET      "/assets/ResponsiveGrid.fea4cff9.js"
+[GIN] 2023/06/27 - 09:52:48 | 200 |      241.96µs |  104.28.213.173 | GET      "/assets/AddOrEdit.e5a9850a.js"
+[GIN] 2023/06/27 - 09:52:48 | 200 |     1.92213ms |  104.28.213.173 | GET      "/api/admin/driver/list"
+[GIN] 2023/06/27 - 09:53:23 | 200 |  552.129503ms |  104.28.213.173 | POST     "/api/admin/storage/create"
+[GIN] 2023/06/27 - 09:53:23 | 200 |    1.178139ms |  104.28.213.173 | GET      "/api/admin/storage/list"
+[GIN] 2023/06/27 - 09:53:23 | 200 |      128.57µs |  104.28.213.173 | GET      "/api/admin/driver/names"
+[GIN] 2023/06/27 - 09:53:26 | 200 |      121.38µs |  104.28.213.173 | GET      "/"
+[GIN] 2023/06/27 - 09:53:27 | 200 |      78.171µs |  104.28.213.173 | GET      "/api/public/settings"
+[GIN] 2023/06/27 - 09:53:27 | 200 |      102.66µs |  104.28.213.173 | GET      "/api/me"
+[GIN] 2023/06/27 - 09:53:27 | 200 |      206.06µs |  104.28.213.173 | POST     "/api/fs/get"
+[GIN] 2023/06/27 - 09:53:28 | 200 |      305.02µs |  104.28.213.173 | POST     "/api/fs/list"
+[31mERRO[0m[2023-06-27 09:53:30] fs/list: ReadDir /: Propfind "https://drive.9t.ee:443/": dial tcp: lookup drive.9t.ee on 8.8.8.8:53: server misbehaving
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598 
+[31mERRO[0m[2023-06-27 09:53:30] failed list /33: ReadDir /: Propfind "https://drive.9t.ee:443/": dial tcp: lookup drive.9t.ee on 8.8.8.8:53: server misbehaving
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598
+failed get objs 
+[GIN] 2023/06/27 - 09:53:30 | 200 |  380.920418ms |  104.28.213.173 | POST     "/api/fs/list"
+[GIN] 2023/06/27 - 09:53:32 | 200 |      381.52µs |  104.28.213.173 | POST     "/api/fs/list"
+[31mERRO[0m[2023-06-27 09:53:35] fs/list: Tenant does not have a SPO license.
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598 
+[31mERRO[0m[2023-06-27 09:53:35] failed list /Onedrive: Tenant does not have a SPO license.
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598
+failed get objs 
+[GIN] 2023/06/27 - 09:53:35 | 200 |  776.201233ms |  104.28.213.173 | POST     "/api/fs/list"
+[GIN] 2023/06/27 - 09:53:41 | 200 |      164.86µs |  104.28.213.173 | GET      "/"
+[GIN] 2023/06/27 - 09:53:42 | 200 |       74.14µs |  104.28.213.173 | GET      "/api/public/settings"
+[GIN] 2023/06/27 - 09:53:42 | 200 |      107.97µs |  104.28.213.173 | GET      "/api/me"
+[GIN] 2023/06/27 - 09:53:42 | 200 |      273.44µs |  104.28.213.173 | POST     "/api/fs/get"
+[GIN] 2023/06/27 - 09:53:43 | 200 |      289.73µs |  104.28.213.173 | POST     "/api/fs/list"
+[31mERRO[0m[2023-06-27 09:54:26] fs/list: Tenant does not have a SPO license.
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598 
+[31mERRO[0m[2023-06-27 09:54:26] failed list /Onedrive: Tenant does not have a SPO license.
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598
+failed get objs 
+[GIN] 2023/06/27 - 09:54:26 | 200 |  161.041407ms |  104.28.213.173 | POST     "/api/fs/list"
+[GIN] 2023/06/27 - 09:54:28 | 200 |     207.489µs |  104.28.213.173 | GET      "/Onedrive"
+[GIN] 2023/06/27 - 09:54:28 | 200 |       84.16µs |  104.28.213.173 | GET      "/api/public/settings"
+[GIN] 2023/06/27 - 09:54:29 | 200 |      116.45µs |  104.28.213.173 | GET      "/api/me"
+[GIN] 2023/06/27 - 09:54:29 | 200 |     255.751µs |  104.28.213.173 | POST     "/api/fs/get"
+[31mERRO[0m[2023-06-27 09:54:30] fs/list: Tenant does not have a SPO license.
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598 
+[31mERRO[0m[2023-06-27 09:54:30] failed list /Onedrive: Tenant does not have a SPO license.
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598
+failed get objs 
+[GIN] 2023/06/27 - 09:54:30 | 200 |  789.120483ms |  104.28.213.173 | POST     "/api/fs/list"
+[GIN] 2023/06/27 - 09:54:39 | 200 |      184.56µs |  104.28.213.173 | GET      "/Onedrive"
+[GIN] 2023/06/27 - 09:54:40 | 200 |       90.01µs |  104.28.213.173 | GET      "/api/public/settings"
+[GIN] 2023/06/27 - 09:54:40 | 200 |      137.46µs |  104.28.213.173 | GET      "/api/me"
+[GIN] 2023/06/27 - 09:54:40 | 200 |      261.19µs |  104.28.213.173 | POST     "/api/fs/get"
+[31mERRO[0m[2023-06-27 09:54:41] fs/list: Tenant does not have a SPO license.
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598 
+[31mERRO[0m[2023-06-27 09:54:41] failed list /Onedrive: Tenant does not have a SPO license.
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598
+failed get objs 
+[GIN] 2023/06/27 - 09:54:41 | 200 |  161.459126ms |  104.28.213.173 | POST     "/api/fs/list"
+[GIN] 2023/06/27 - 09:54:56 | 200 |      404.49µs |  104.28.213.173 | GET      "/api/admin/storage/get?id=33"
+[GIN] 2023/06/27 - 09:54:56 | 200 |      355.26µs |  104.28.213.173 | GET      "/api/admin/driver/info?driver=Onedrive"
+[GIN] 2023/06/27 - 10:03:11 | 200 |      115.21µs |   120.230.109.4 | GET      "/"
+[GIN] 2023/06/27 - 10:03:14 | 200 |      114.95µs |   120.230.109.4 | GET      "/api/public/settings"
+[GIN] 2023/06/27 - 10:03:15 | 200 |       117.2µs |   120.230.109.4 | GET      "/api/me"
+[GIN] 2023/06/27 - 10:03:15 | 200 |      247.11µs |   120.230.109.4 | POST     "/api/fs/get"
+[GIN] 2023/06/27 - 10:03:15 | 200 |      247.51µs |   120.230.109.4 | POST     "/api/fs/list"
+[GIN] 2023/06/27 - 10:03:23 | 200 |       82.04µs |   120.230.109.4 | GET      "/api/public/settings"
+[GIN] 2023/06/27 - 10:03:23 | 200 |     124.691µs |   120.230.109.4 | GET      "/api/me"
+[GIN] 2023/06/27 - 10:03:23 | 200 |      279.67µs |   120.230.109.4 | POST     "/api/fs/get"
+[GIN] 2023/06/27 - 10:03:23 | 200 |      254.71µs |   120.230.109.4 | POST     "/api/fs/list"
+[31mERRO[0m[2023-06-27 10:03:27] fs/list: Tenant does not have a SPO license.
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598 
+[31mERRO[0m[2023-06-27 10:03:27] failed list /Onedrive: Tenant does not have a SPO license.
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598
+failed get objs 
+[GIN] 2023/06/27 - 10:03:27 | 200 |  228.348542ms |   120.230.109.4 | POST     "/api/fs/list"
+[GIN] 2023/06/27 - 10:04:10 | 200 |         333µs |   120.230.109.4 | POST     "/api/fs/list"
+[GIN] 2023/06/27 - 10:04:38 | 200 |      129.34µs |   120.230.109.4 | GET      "/api/me"
+[GIN] 2023/06/27 - 10:04:40 | 200 |      107.59µs |   120.230.109.4 | GET      "/api/admin/driver/names"
+[GIN] 2023/06/27 - 10:04:40 | 200 |      996.07µs |   120.230.109.4 | GET      "/api/admin/storage/list"
+[GIN] 2023/06/27 - 10:04:48 | 200 |      436.58µs |   120.230.109.4 | GET      "/api/admin/storage/get?id=9"
+[GIN] 2023/06/27 - 10:04:48 | 200 |     144.449µs |   120.230.109.4 | GET      "/api/admin/driver/info?driver=Onedrive"
+[GIN] 2023/06/27 - 10:05:18 | 200 |  571.510915ms |   120.230.109.4 | POST     "/api/admin/storage/update"
+[GIN] 2023/06/27 - 10:05:18 | 200 |      112.14µs |   120.230.109.4 | GET      "/api/admin/driver/names"
+[GIN] 2023/06/27 - 10:05:18 | 200 |    1.380979ms |   120.230.109.4 | GET      "/api/admin/storage/list"
+[GIN] 2023/06/27 - 10:05:32 | 200 |      130.52µs |   120.230.109.4 | GET      "/"
+[GIN] 2023/06/27 - 10:05:32 | 200 |      103.08µs |   120.230.109.4 | GET      "/api/public/settings"
+[GIN] 2023/06/27 - 10:05:33 | 200 |      111.39µs |   120.230.109.4 | GET      "/api/me"
+[GIN] 2023/06/27 - 10:05:33 | 200 |      240.24µs |   120.230.109.4 | POST     "/api/fs/get"
+[GIN] 2023/06/27 - 10:05:33 | 200 |      365.91µs |   120.230.109.4 | POST     "/api/fs/list"
+[GIN] 2023/06/27 - 10:05:38 | 200 |  2.705572601s |   120.230.109.4 | POST     "/api/fs/list"
+[GIN] 2023/06/27 - 10:06:09 | 200 |      259.45µs |   120.230.109.4 | POST     "/api/fs/list"
